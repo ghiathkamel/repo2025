@@ -1,2 +1,3 @@
+# Ignore txt yml files in the root directory
 *.txt
 *.yml
