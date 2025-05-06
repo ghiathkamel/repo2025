@@ -1,0 +1,13 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Force Unix-style line endings for YAML and plain text
+*.yml text eol=lf
+*.txt text eol=lf
+
+# Treat Markdown as text with LF endings
+*.md text eol=lf
+
+# Declare binary files to prevent EOL conversion
+*.png binary
+*.zip binary
